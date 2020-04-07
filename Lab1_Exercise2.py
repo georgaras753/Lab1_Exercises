@@ -31,7 +31,6 @@ def sortDict(b_dict):
     c_dict = {}
     while b_dict:
         key_min = min(b_dict, key=b_dict.get)
-        print(key_min)
         c_dict[key_min] = b_dict[key_min]
         del b_dict[key_min]
 
