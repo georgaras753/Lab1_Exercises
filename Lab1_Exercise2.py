@@ -41,4 +41,4 @@ b_dict = removeDuplicates(a_dict)
 print(b_dict)
 
 c_dict = sortDict(b_dict)
-print("\nsortList : ", c_dict)
+print("\nsortDict : ", c_dict)
